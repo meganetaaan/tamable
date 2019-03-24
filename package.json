@@ -1,0 +1,29 @@
+{
+  "name": "tamable",
+  "version": "0.0.0",
+  "description": "Yet another virtual pet engine inspired by Tamagotchi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/meganetaaan/tamable.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meganetaaan/tamable/issues"
+  },
+  "homepage": "https://github.com/meganetaaan/tamable#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.4.2",
+    "@typescript-eslint/parser": "^1.4.2",
+    "eslint": "^5.15.1",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4",
+    "typescript": "^3.3.3333"
+  }
+}
