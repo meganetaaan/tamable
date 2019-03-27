@@ -12,6 +12,7 @@ class Event {
         this.data = param.data || {};
     }
 }
+
 type ListenerFunction = (event: Event) => void;
 class EventTarget {
     private listeners: Map<string, Set<ListenerFunction>>;
@@ -49,4 +50,4 @@ class EventTarget {
     }
 }
 
-export default EventTarget;
+export default { Event, EventTarget }
